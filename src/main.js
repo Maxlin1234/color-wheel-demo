@@ -1,8 +1,13 @@
-import Vue from 'vue'
-import App from './App.vue'
+// The Vue build version to load with the `import` command
+// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+import Vue from "vue/dist/vue.js";
+import App from "./App";
+import ColorPicker from 'vue-iro-color-picker';
 
-Vue.config.productionTip = false
-
+Vue.component('color-picker', ColorPicker);
+/* eslint-disable no-new */
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  el: "#app",
+  components: { App },
+  template: "<App/>"
+});

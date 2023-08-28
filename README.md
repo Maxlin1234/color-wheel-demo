@@ -1,24 +1,14 @@
 # bookshelf
 
-## Project setup
+## 版本
+vue 2.x
+
+## 安裝套件
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 專案 local 啟動
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
